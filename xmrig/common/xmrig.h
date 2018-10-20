@@ -33,6 +33,7 @@ enum Algo {
     INVALID_ALGO = -1,
     CRYPTONIGHT,       /* CryptoNight (Monero) */
     CRYPTONIGHT_LITE,  /* CryptoNight-Lite (AEON) */
+    CRYPTONIGHT_DARK,  /* CryptoNight-Dark (CRYONOTE) */
     CRYPTONIGHT_HEAVY  /* CryptoNight-Heavy (RYO) */
 };
 
@@ -67,7 +68,8 @@ enum Variant {
     VARIANT_XHV  = 5,  // Modified CryptoNight-Heavy (Haven Protocol only)
     VARIANT_XAO  = 6,  // Modified CryptoNight variant 0 (Alloy only)
     VARIANT_RTO  = 7,  // Modified CryptoNight variant 1 (Arto only)
-    VARIANT_2    = 8,  // CryptoNight variant 2
+    VARIANT_XCN  = 8,  // Modified CryptoNight variant 0 (CryoNote only)
+    VARIANT_2    = 9,  // CryptoNight variant 2
     VARIANT_MAX
 };
 
